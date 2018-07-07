@@ -1,5 +1,9 @@
 #!/bin/bash
 
+set -e              # errexit exit whenever a command exits with a non zero status 
+set -u              # Undefined variables as errors
+set -o pipefail     # Non zero status in a pipe when one command has one non zero status
+
 # =============================================================
 # This script ...
 # 

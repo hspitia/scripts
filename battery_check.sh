@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sound="/home/hspitia/.sounds/echime.wav"
+sound="${HOME}/.sounds/echime.wav"
 
     while true
     do
